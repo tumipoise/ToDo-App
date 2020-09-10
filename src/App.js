@@ -59,7 +59,12 @@ class App extends Component {
       <div className="container">
         <div className="d-flex justify-content-between bg-dark text-white py-1 px-3">
           <h6 className="mt-1">DevCareer 1st React Task</h6>
-          <h6 className="mt-1">👩 TumiPoise </h6>
+          <h6 className="mt-1">
+            <span role="img" aria-label="woman">
+              👩
+            </span>
+            TumiPoise{" "}
+          </h6>
         </div>
         <div className="row">
           <div className="col-10 mx-auto col-md-8 mt-4">

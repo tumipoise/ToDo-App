@@ -10,8 +10,8 @@ class TodoList extends Component {
         {items.length > 0 ? (
           <ul className="list-group my-5">
             <h3 className="text-capitalize text-center">Todo List</h3>
-            {items.map((item) => {
-              return <TodoItem key={item.id} title={item.title} />;
+            {items.map((item, index) => {
+              return <TodoItem key={index} title={item.title} />;
             })}
 
             <button
